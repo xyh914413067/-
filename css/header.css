@@ -1,0 +1,54 @@
+.header{
+    height: 77px;
+    position: relative;
+    background: url(img/navd.png) no-repeat center;
+}
+.big{
+    background: url(img/big.png) no-repeat center;
+    height: 700px;
+    /* width: 1800px; */
+    background-size: 100% 100%;
+}
+.header .logo{
+    /* width: 1179px; */
+    float: left;
+}
+.header .biao{
+    margin-top: 16px;
+    margin-left: 51px;
+}
+.header .nav{
+    position: absolute;
+    right: 49px;
+    top: 30px;
+}
+.header .nav .every{
+    float: left;
+    margin-left: 36px;    
+    position: relative;
+    padding: 0 6px;
+}
+.header .nav a{
+    color: #8d8d8d;
+}
+.header .nav .line{
+    display: none;
+    width: 100%;
+    height: 2px;
+    background-color: #dd1717;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.header .nav :hover a{
+    color: #dd1717;
+}
+.header .nav :hover .line{
+    display: block;
+}
+.header .nav .every.active a{
+    color: #dd1717;
+}
+.header .nav .every.active .line{
+    display: block;
+}

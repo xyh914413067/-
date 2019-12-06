@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: 77px;
+    position: relative;
+    /* background: url(img/navd.png) no-repeat center; */
+    background-color: transparent;
+}
+.big{
+    height: 478px;
+    position: relative;
+    overflow: hidden;
+    background: url(../img/big.png) no-repeat center;
+}
+.big .big-c{
+    width: 1200px;
+    height: 718px;
+    margin: 0 auto;
+    /* background: url(../img/big.png) no-repeat center; */
+    /* z-index: -1; */
+}
+.header .logo{
+    /* width: 1179px; */
+    float: left;
+}
+.header .biao{
+    margin-top: 16px;
+    margin-left: 51px;
+}
+.header .nav{
+    position: absolute;
+    right: 49px;
+    top: 30px;
+}
+.header .nav .every{
+    float: left;
+    margin-left: 36px;    
+    position: relative;
+    padding: 0 6px;
+}
+.header .nav a{
+    color: #8d8d8d;
+}
+.header .nav .line{
+    display: none;
+    width: 100%;
+    height: 2px;
+    background-color: #dd1717;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.header .nav :hover a{
+    color: #dd1717;
+}
+.header .nav :hover .line{
+    display: block;
+}
+.header .nav .every.active a{
+    color: #dd1717;
+}
+.header .nav .every.active .line{
+    display: block;
+}
+.big .gai{
+    height: 168px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color:#161616;
+}            
+.gai .interval{
+    width: 100%;
+    height: 168px;
+    /* background-color: #000000; */
+    margin: 0 auto;
+}
+.gai .interval .kk{
+    text-align: center;
+    position: relative;
+    background-color: #161616;
+    
+}
+
+.gai .interval span{
+    font-size: 24px;
+    color: #dd1717;
+    font-weight: bolder;
+    line-height: 168px;
+    /* line-height: 24px;  */
+              
+}
+.gai .interval .line{
+    height: 2px;
+    width: 130px;
+    background-color: #dd1717;
+    position: absolute;
+    
+   
+}
+.gai .interval .line.f1{
+    top: 50%;
+    left: 35%;
+}
+.gai .interval .line.f2{
+    top: 50%;
+    right: 35%;
+}
+.gai .interval .tip{  
+    position: absolute;
+    top: 60%;
+    left: 48%;   
+    color: wheat;
+}
+.main{
+    height: 601px;
+    background-color:#161616;
+}
+.main .main-c{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%; 
+    position: relative;
+}
+.main .main-c .pic{
+    width: 100%;
+    height: 502px;
+    /* background-color: red; */
+}
+.main-c .pic .img{
+    float: left;
+    height: 100%;
+    width: 257.5px;
+}
+
+.main-c .pic .img.mr0{   
+    width: 170px;  
+}
+.main-c .pic .img img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.main-c .img.mr0 .guo{
+    width: 100%;
+    height: 251px;
+    line-height: 251px;
+    text-align: center;
+    background-color: #222222;
+    color: #e1d3d3;
+}
+
+.main-c .img.mr0 :hover{
+    background-color: #7a1717;
+}
+.main-c .img.mr0 .guo.active{
+    background-color: #7a1717;
+}
+.us{
+    background-color: #000000;
+    height: 282px;
+}
+.us .us-c{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.us-c .wei{
+    margin-top: 90px;
+    float: left;
+    width: 370px;
+    height: 111px;
+    border-right:1px solid gray;
+    
+    
+}
+.us .us-c .icon{
+    display: block;
+    font-size: 16px;
+    margin-top: 35px;
+    color: white;
+}
+.us-c .icon .icon4{
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    /* float: left; */
+}
+.us-c .icon4 .img{
+    float: left;
+    margin: 6px;
+}
+.us-c .zhong{
+    margin-top: 90px;
+    float: left;
+    width: 456px;
+    height: 111px;
+    border-right:1px solid gray;
+    text-indent: 5em;
+}
+.us-c .zhong p{
+    display: block;
+    font-size: 16px;
+    margin-top: 12px;
+    
+    color: white;
+}
+.us-c .you{
+    margin-top: 90px;
+    float: left;
+    width: 372px;
+    height: 111px;
+    text-indent: 5em;
+}
+.us-c .you p{
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+    
+    color: white;
+}
+
+.footer{
+    height: 80px;
+    background-color: #161616;
+    text-align: center;
+}
+.footer p{
+    color: #a0a0a0;
+    line-height: 80px;
+}

@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+    height: 77px;
+    
+    background-color: black;
+}
+.header .header-c{
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header .logo{
+    /* width: 1179px; */
+    float: left;
+}
+.header .biao{
+    margin-top: 16px;
+    margin-left: 51px;
+}
+.header-c .nav{
+    position: absolute;
+    right: 49px;
+    top: 30px;
+}
+.header-c .nav .every{
+    float: left;
+    margin-left: 36px;    
+    position: relative;
+    padding: 0 6px;
+}
+.header-c .nav a{
+    color: #8d8d8d;
+}
+.header-c .nav .line{
+    display: none;
+    width: 100%;
+    height: 2px;
+    background-color: #dd1717;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.header-c .nav :hover a{
+    color: #dd1717;
+}
+.header-c .nav :hover .line{
+    display: block;
+}
+.header-c .nav .every.active a{
+    color: #dd1717;
+}
+.header-c .nav .every.active .line{
+    display: block;
+}
+.interval{
+    width: 100%;
+    height: 192px;
+    background-color:#161616 ;
+    margin: 0 auto;
+}
+.interval .kk{
+    text-align: center;
+    position: relative;
+    background-color: #161616;
+    
+}
+
+.interval span{
+    font-size: 24px;
+    color: #dd1717;
+    font-weight: bolder;
+    line-height: 168px;
+    /* line-height: 24px;  */
+              
+}
+.interval .line{
+    height: 2px;
+    width: 130px;
+    background-color: #dd1717;
+    position: absolute;
+    
+   
+}
+.interval .line.f1{
+    top: 50%;
+    left: 35%;
+}
+.interval .line.f2{
+    top: 50%;
+    right: 35%;
+}
+.interval .tip{  
+    position: absolute;
+    top: 60%;
+    left: 48%;   
+    color: wheat;
+}
+.main{
+    background-color: #161616;
+    height: 631px;
+    width: 100%;
+}
+.main .main-c{
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+.main .main-c .table{
+    width: 1000px;
+    height: 100%;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+.main-c .table .text{
+    float: left;
+    height: 214px;
+    width: 285px;
+    /* background-color: black; */
+    color: wheat;
+    font-size: 14px;
+    line-height: 27px;
+    margin-right: 175px;
+}
+.table .text .logo{
+    background: url(../img/logo.png);
+    height: 44px;
+    width: 118px;
+    margin-bottom: 37px;
+}
+.main-c .table .give{
+    width: 535px;
+    height: 575px;
+    /* background-color: gray; */
+    float: left;
+    position: relative;
+}
+.table .give .sub{
+    width: 100%;
+    height: 90px;
+    color: white;
+    /* background-color: green; */
+}
+.table .give input,
+.table .give textarea{
+    height: 46px;
+    width: 100%;
+    background-color: #1f1f1f;
+	border: 1px solid #363636;
+	font-size: 25px;
+    color: #fff;
+    margin-top: 10px;
+}
+.table .give textarea{
+    height: 178px;
+}
+.table .give .an{
+    height: 48px;
+    width: 148px;
+    /* background: url(/img/tijiao.png) no-repeat center; */
+    position: absolute;
+    bottom: 0px;
+    left: 193.5px;
+    border: none;
+    background-color: transparent;
+}
+.us{
+    background-color: #000000;
+    height: 282px;
+}
+.us .us-c{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.us-c .wei{
+    margin-top: 90px;
+    float: left;
+    width: 370px;
+    height: 111px;
+    border-right:1px solid gray;
+    
+    
+}
+.us .us-c .icon{
+    display: block;
+    font-size: 16px;
+    margin-top: 35px;
+    color: white;
+}
+.us-c .icon .icon4{
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    /* float: left; */
+}
+.us-c .icon4 .img{
+    float: left;
+    margin: 6px;
+}
+.us-c .zhong{
+    margin-top: 90px;
+    float: left;
+    width: 456px;
+    height: 111px;
+    border-right:1px solid gray;
+    text-indent: 5em;
+}
+.us-c .zhong p{
+    display: block;
+    font-size: 16px;
+    margin-top: 12px;
+    
+    color: white;
+}
+.us-c .you{
+    margin-top: 90px;
+    float: left;
+    width: 372px;
+    height: 111px;
+    text-indent: 5em;
+}
+.us-c .you p{
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+    
+    color: white;
+}
+
+.footer{
+    height: 80px;
+    background-color: #161616;
+    text-align: center;
+}
+.footer p{
+    color: #a0a0a0;
+    line-height: 80px;
+}
